@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity4">
 
     <LinearLayout
         android:id="@+id/linearLayout4"
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Пропустить"
+            android:text="Завершить"
             android:textColor="#57A9FF"
             android:textSize="20sp" />
 
@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Анализы"
+            android:text="Мониторинг"
             android:textColor="#00B712"
             android:textSize="20sp" />
 
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="29dp"
             android:gravity="center"
-            android:text="Экспресс сбор и получение проб"
+            android:text="Наши врачи всегда наблюдают за вашими показателями здоровья"
             android:textColor="#939396"
             android:textSize="14sp" />
     </LinearLayout>
@@ -80,20 +80,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/eps1" />
+            app:srcCompat="@drawable/eps3" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="204dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="526dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="86dp"
+        android:layout_width="359dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="54dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,9 +101,9 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/illustration" />
+            app:srcCompat="@drawable/main4" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
