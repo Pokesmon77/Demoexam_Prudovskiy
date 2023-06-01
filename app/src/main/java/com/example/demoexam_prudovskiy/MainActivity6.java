@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity6 extends AppCompatActivity {
 
@@ -31,7 +33,7 @@ public class MainActivity6 extends AppCompatActivity {
         EditText edit2 = (EditText) findViewById(R.id.edit2);
         EditText edit3 = (EditText) findViewById(R.id.edit3);
         EditText edit4 = (EditText) findViewById(R.id.edit4);
-        String test = "1234";
+        String test = "6666";
         final String[] s1 = {"", "", "", ""};
 
         edit1.addTextChangedListener(new TextWatcher() {
@@ -63,7 +65,7 @@ public class MainActivity6 extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length()==1){
-                    s1[0] = edit2.getText().toString();
+                    s1[1] = edit2.getText().toString();
                     edit3.requestFocus();
                 }
             }
@@ -85,7 +87,7 @@ public class MainActivity6 extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length()==1){
-                    s1[0] = edit3.getText().toString();
+                    s1[2] = edit3.getText().toString();
                     edit4.requestFocus();
                 }
             }
@@ -105,8 +107,20 @@ public class MainActivity6 extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length()==1){
-                    s1[0] = edit4.getText().toString();
-                    edit4.requestFocus();
+                    s1[3] = edit4.getText().toString();
+                    String s_all = s1[0] + s1[1] + s1[2] + s1[3];
+                    Log.i ("string", (String) s_all);
+                    if (s_all.equals(test)){
+                        Intent intent = new Intent(MainActivity6.this, MainActivity7.class);
+                        startActivity(intent);
+                    }
+
+                    else if (!s_all.equals(test)){
+                        Toast toast = Toast.makeText(getApplicationContext(),
+                                "Успешно!",
+                                Toast.LENGTH_SHORT);
+                        toast.show();
+                    }
                 }
             }
 
