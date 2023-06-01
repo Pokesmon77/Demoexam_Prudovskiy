@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity5">
 
     <LinearLayout
@@ -96,6 +97,7 @@
             android:fontFamily="sans-serif-light"
             android:text="Далее"
             android:textColor="#FFFFFF"
+            android:onClick="button"
             android:textSize="17sp" />
     </LinearLayout>
 
