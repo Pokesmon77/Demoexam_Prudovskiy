@@ -2,109 +2,82 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="#FFFFFF"
     tools:context=".MainActivity4">
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="49dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/textView66"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Завершить"
-            android:textColor="#57A9FF"
-            android:textSize="20sp" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="65dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:width="167dp"
-            android:height="163dp"
-            app:srcCompat="@drawable/shape" />
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="273dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Завершить"
+                android:textColor="#57A9FF"
+                android:textSize="20sp"
+                android:layout_marginTop="46dp"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="167dp"
+                android:height="163dp"
+                app:srcCompat="@drawable/shape"
+                android:layout_marginTop="49dp"
+                android:layout_marginLeft="103dp"/>
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="Мониторинг"
             android:textColor="#00B712"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_marginTop="59dp"
+            android:layout_marginLeft="142dp"/>
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="29dp"
-            android:gravity="center"
-            android:text="Наши врачи всегда наблюдают за вашими показателями здоровья"
+            android:text="   Наши врачи всегда наблюдают \n за вашими показателями здоровья"
             android:textColor="#939396"
-            android:textSize="14sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="58dp"
-        android:layout_height="15dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="407dp"
-        android:layout_marginEnd="158dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            android:textSize="14sp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="85dp"/>
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/eps3" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="359dp"
-        android:layout_height="269dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="489dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="54dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            app:srcCompat="@drawable/eps3"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="166dp"/>
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/main4" />
+            app:srcCompat="@drawable/main4"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="22dp"/>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

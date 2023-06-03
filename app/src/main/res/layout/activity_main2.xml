@@ -2,109 +2,81 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="#FFFFFF"
     tools:context=".MainActivity2">
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="49dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView66"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="30dp"
             android:text="Пропустить"
             android:textColor="#57A9FF"
             android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="65dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:width="167dp"
-            android:height="163dp"
-            app:srcCompat="@drawable/shape" />
+            app:srcCompat="@drawable/shape"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="103dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="273dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="Анализы"
             android:textColor="#00B712"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_marginTop="272dp"
+            android:layout_marginLeft="164dp"/>
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="29dp"
-            android:gravity="center"
             android:text="Экспресс сбор и получение проб"
             android:textColor="#939396"
-            android:textSize="14sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="58dp"
-        android:layout_height="15dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="407dp"
-        android:layout_marginEnd="158dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            android:textSize="14sp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="100dp"/>
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/eps1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="204dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="526dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="86dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            app:srcCompat="@drawable/eps1"
+            android:layout_marginTop="61dp"
+            android:layout_marginLeft="174dp"/>
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/illustration" />
+            app:srcCompat="@drawable/illustration"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="113dp"/>
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
