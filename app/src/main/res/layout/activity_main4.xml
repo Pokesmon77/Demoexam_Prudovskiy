@@ -39,7 +39,7 @@
                 android:height="163dp"
                 app:srcCompat="@drawable/shape"
                 android:layout_marginTop="49dp"
-                android:layout_marginLeft="103dp"/>
+                android:layout_marginLeft="110dp"/>
 
         </LinearLayout>
 
@@ -51,7 +51,7 @@
             android:textColor="#00B712"
             android:textSize="20sp"
             android:layout_marginTop="59dp"
-            android:layout_marginLeft="142dp"/>
+            android:layout_marginLeft="145dp"/>
 
         <TextView
             android:id="@+id/textView4"
@@ -61,7 +61,7 @@
             android:textColor="#939396"
             android:textSize="14sp"
             android:layout_marginTop="29dp"
-            android:layout_marginLeft="85dp"/>
+            android:layout_marginLeft="87dp"/>
 
         <ImageView
             android:id="@+id/imageView6"
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/eps3"
             android:layout_marginTop="42dp"
-            android:layout_marginLeft="166dp"/>
+            android:layout_marginLeft="170dp"/>
 
         <ImageView
             android:id="@+id/imageView7"
