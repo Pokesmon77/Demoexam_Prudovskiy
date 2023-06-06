@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -30,6 +31,15 @@ public class MainActivity7 extends AppCompatActivity implements ImageView.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main7);
         initializeComponents();
+        TextView textView3 = (TextView) findViewById(R.id.textView3);
+
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity7.this, MainActivity8.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initializeComponents() {

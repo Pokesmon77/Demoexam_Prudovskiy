@@ -6,4 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity8">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="76dp"
+                android:text="Создание карты \nпациента"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пропустить"
+                android:textColor="#1A6FEE"
+                android:textSize="15sp"
+                android:layout_marginTop="78dp"
+                android:layout_marginLeft="96dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Без карты пациента вы не сможете заказать анализы."
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В картах пациентов будут храниться результаты \nанализов вас и ваших близких"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Имя"
+            android:paddingLeft="14dp"
+            android:background="@drawable/fon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Отчество"
+            android:background="@drawable/fon"
+            android:paddingLeft="14dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Фамилия"
+            android:background="@drawable/fon"
+            android:paddingLeft="14dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="Дата рождения"
+            android:background="@drawable/fon"
+            android:paddingLeft="14dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextTextPersonName8"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="Пол"-->
+<!--            android:background="@drawable/fon"-->
+<!--            android:paddingLeft="14dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="24dp"-->
+<!--            />-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fon"
+            android:paddingLeft="14dp"
+            />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создать"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/knop"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
